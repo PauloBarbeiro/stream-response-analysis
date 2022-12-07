@@ -20,15 +20,15 @@ $ ab -n 100 -c 10 http://localhost:3000/dataset
 $ ab -n 100 -c 10 http://localhost:3000/dataset/stream/default
 ```
 
-Data with 96.7 MB: no-stream average 104ms; with-stream average 53ms;
-Data with 26.4 MB: no-stream average 21ms; with-stream average 15ms;
-Data with 10.6 MB: no-stream average 7ms; with-stream average 6.2ms;
-Data with  4.9 MB: no-stream average 4ms; with-stream average 2.5ms;
+* Data with 96.7 MB: no-stream average 104ms; with-stream average 53ms;
+* Data with 26.4 MB: no-stream average 21ms; with-stream average 15ms;
+* Data with 10.6 MB: no-stream average 7ms; with-stream average 6.2ms;
+* Data with  4.9 MB: no-stream average 4ms; with-stream average 2.5ms;
 
 First conclusion:
-The use of stream makes the average response time always faster, but larger the data to be returned bigger the
+The use of stream makes the average response time always faster, but larger the data to be returned, bigger the
 performance benefit. Another observation: larger the data volume gets, the use of stream reduces process picks
-in the computer processors.
+in the computer's processors.
 
 ## References:
 - https://therootcompany.com/blog/pipe-node-streams-the-right-way/
