@@ -32,4 +32,5 @@ in the computer's processors.
 
 ## References:
 - https://therootcompany.com/blog/pipe-node-streams-the-right-way/
+- https://node.dev/post/understanding-streams-in-node-js
 - https://www.tutorialspoint.com/apache_bench/apache_bench_quick_guide.htm
